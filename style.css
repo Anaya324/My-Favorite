@@ -1,4 +1,6 @@
-
+body [
+    text-align: center;
+]
 .Project {
   float: left;
   width: 24%;
@@ -23,9 +25,9 @@
     overflow: hidden;
     background-color: #ffffff;
     position: fixed;
+    vertical-align: middle;
     top: 0px;
     width: 100%;
-    
 }
 .links a {
   float: right;
@@ -47,6 +49,10 @@
     position: absolute;
     text-align: center;
 }
+#inner{
+    
+    width:70%;
+}
 .links {
     float: left;
     color: darkblue; 
@@ -59,6 +65,7 @@
 }
 #Home {
     background-color: black;
+    text-align: center;
 }
 h1 {
     font-size: 100px;
@@ -71,18 +78,21 @@ h2 {
 #About {
     font-size: 50px;
     color: forestgreen;
+    text-align: center;
 }
 #Book {
     background-color: black;
     font-size: 60px;
     color: white;
+    text-align: center;
 }
 h4 {
     font-size: 100px;
     color: blueviolet;
 }
 #Work {
-   font-size: 20px; 
+   font-size: 20px;
+   text-align: center;
 }
 #MOM {
     width: 500px;
@@ -91,6 +101,7 @@ h4 {
 #Contacts {
     color: aqua;
     font-size: 50px;
+    text-align: center;
 }
 .email {
     text-align: center;
@@ -104,4 +115,8 @@ p {
 #Inspiration {
     background-color: black;
     font-size: 50px;
+    text-align: center;
+}
+#gmaps {
+    width: 100%;
 }
