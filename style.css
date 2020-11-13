@@ -65,12 +65,8 @@ h1 {
     color: aquamarine;
 }
 h2 {
-    font-size: 80px;
-    color: deeppink;
-}
-h3 {
-    font-size: 100px;
-    color: chocolate;
+    font-size: 90px;
+    color: antiquewhite;
 }
 #About {
     font-size: 50px;
@@ -88,12 +84,11 @@ h4 {
 #Work {
    font-size: 20px; 
 }
-h5 {
-    font-size: 100px;
-    color: cornflowerblue;
+#MOM {
+    width: 500px;
+    height: 500px;
 }
 #Contacts {
-    background-color: black;
     color: aqua;
     font-size: 50px;
 }
@@ -104,4 +99,9 @@ h5 {
 }
 p {
     font-size: 40px;
+    color: blue;
+}
+#Inspiration {
+    background-color: black;
+    font-size: 50px;
 }
